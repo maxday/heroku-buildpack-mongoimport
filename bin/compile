@@ -5,6 +5,6 @@ cd $1
 # download the binary
 curl https://github.com/maxday/heroku-mongoimport/raw/master/mongoimport.tar.gz -s -O -ssl3
 # make a directory
-mkdir -p vendor/mogoimport
+mkdir -p vendor/mongoimport
 # untar the binary
-tar -C vendor/mogoimport -xvf mogoimport.tar.gz
+tar -C vendor/mongoimport -xvf mogoimport.tar.gz
