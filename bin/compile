@@ -7,5 +7,4 @@ curl https://github.com/maxday/heroku-mongoimport/raw/master/mongoimport -s -O
 # make a directory
 mkdir -p vendor/mongoimport
 # untar the binary
-mv mongoimport vendor/mongoimport
-
+mv mongoimport.txt vendor/mongoimport
