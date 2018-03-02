@@ -3,8 +3,8 @@ echo "Installing mongoimport"
 # change the current directory to the the BUILD_DIR ($1)
 cd $1
 # download the binary
-curl https://github.com/maxday/heroku-mongoimport/raw/master/mongoimport.txt -s -O
+curl -L https://github.com/maxday/heroku-mongoimport/raw/master/mongoimport.tar.gz > mogoimport.tar.gz
 # make a directory
-mkdir -p vendor/mongoimport
+mkdir -p vendor/mogoimport
 # untar the binary
-mv mongoimport.txt vendor/mongoimport
+tar -C vendor/mogoimport -xpvf mogoimport.tar.gz
