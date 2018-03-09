@@ -8,3 +8,4 @@ curl -L https://github.com/maxday/heroku-mongoimport/raw/master/mongoimport.tar.
 mkdir -p vendor/mongoimport
 # untar the binary
 tar -C vendor/mongoimport -xpvf mongoimport.tar.gz
+rm mongoimport.tar.gz
